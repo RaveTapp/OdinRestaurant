@@ -1,1 +1,3 @@
-alert("Test");
+import { pageLoad } from './html.js';
+
+pageLoad();
