@@ -1,5 +1,3 @@
-
-
 export function menuLoad() {
     let content = document.querySelector("#content");
 
@@ -20,5 +18,4 @@ export function menuLoad() {
     
     content.innerHTML = "";
     content.appendChild(div);
-    console.log("Menu page loaded");
 }

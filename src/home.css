@@ -29,6 +29,10 @@ div.home p {
     text-align: center;
 }
 
+div.about p {
+    margin: 4px;
+}
+
 hr {
     width: 100vw;
 }
