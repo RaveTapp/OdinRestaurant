@@ -1,3 +1,3 @@
-import { pageLoad } from './html.js';
+import { pageLoad } from './home.js';
 
 pageLoad();
