@@ -4,6 +4,8 @@ import './home.css';
 export function pageLoad(){
     let content = document.querySelector("#content");
 
+
+
     let div = document.createElement("div");
     div.classList.add("home");
     
@@ -18,7 +20,7 @@ export function pageLoad(){
     /*const myRestaurantImg = new Image();
     myRestaurantImg.src = restaurantImage;
     content.appendChild(myRestaurantImg);*/
-    
+    content.innerHTML = "";
     content.appendChild(div);
 
     console.log("Home page loaded");
