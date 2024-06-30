@@ -17,5 +17,5 @@ export function pageLoad(){
     
     
 
-    console.log("AAA, page loaded");
+    console.log("Home page loaded");
 }
