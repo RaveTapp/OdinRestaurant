@@ -4,8 +4,6 @@ import './home.css';
 export function pageLoad(){
     let content = document.querySelector("#content");
 
-
-
     let div = document.createElement("div");
     div.classList.add("home");
     
